@@ -22,7 +22,7 @@
         <licenseUrl>https://github.com/erikvanbrakel/terraform-provider-sumologic/blob/master/LICENSE</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <!--Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-        <iconUrl>https://cdn.rawgit.com/jamestoyer/chocolatey-packages/c98f82fc306d8e204546d890aad96b49f23b7539/terraform/icons/terraform.png</iconUrl>
+	<iconUrl>https://github.com/chrisevett/chocolatey-packages/blob/a136f552a3afa86769e410cf0bcbf58dadaad776/terraform-provider-sumo/icons/terraform.png</iconUrl>
     </metadata>
     <files>
         <file src = "tools\**" target = "tools"/>
