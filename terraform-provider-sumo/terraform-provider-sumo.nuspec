@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns = "http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+    <metadata>
+        <id>terraform-provider-sumologic</id>
+        <title>terraform-provider-sumologic</title>
+        <version>0.2.1</version>
+        <authors>Erik van Brakel</authors>
+        <owners>Chris Evett</owners>
+        <summary>Terraform provider for https://sumologic.com</summary>
+        <description>Terraform provider for https://sumologic.com</description>
+        <releaseNotes>
+            * Export `Url` Attribute [#11](https://github.com/erikvanbrakel/terraform-provider-sumologic/pull/11)
+            * Adds destroy functionality to `http_source` [#13](https://github.com/erikvanbrakel/terraform-provider-sumologic/pull/13)
+        </releaseNotes>
+        <projectUrl>https://github.com/erikvanbrakel/terraform-provider-sumologic</projectUrl>
+        <docsUrl>https://github.com/erikvanbrakel/terraform-provider-sumologic/blob/master/README.md</docsUrl>
+        <bugTrackerUrl>https://github.com/erikvanbrakel/terraform-provider-sumologic</bugTrackerUrl>
+        <projectSourceUrl>https://github.com/erikvanbrakel/terraform-provider-sumologic/issues</projectSourceUrl>
+        <packageSourceUrl>https://github.com/chrisevett/chocolatey-packages</packageSourceUrl>
+        <tags>terraform hashicorp sumologic</tags>
+        <copyright></copyright>
+        <licenseUrl>https://github.com/erikvanbrakel/terraform-provider-sumologic/blob/master/LICENSE</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <!--Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+        <iconUrl>https://cdn.rawgit.com/jamestoyer/chocolatey-packages/c98f82fc306d8e204546d890aad96b49f23b7539/terraform/icons/terraform.png</iconUrl>
+    </metadata>
+    <files>
+        <file src = "tools\**" target = "tools"/>
+    </files>
+</package>
